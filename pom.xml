@@ -37,7 +37,15 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
-
+<profiles>
+	<profile>
+	<id>sonar</id>
+	<activation>
+		<activeByDefault>true</activeByDefault>
+	</activation>
+	
+</profile>
+</profiles>
 	<build>
 		<plugins>
 			<plugin>
